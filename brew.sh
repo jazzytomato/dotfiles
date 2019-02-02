@@ -46,6 +46,8 @@ brew install screen
 brew install php
 brew install gmp
 
+brew install rbenv
+
 # Install font tools.
 brew tap bramstein/webfonttools
 brew install sfnt2woff
@@ -96,6 +98,12 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+brew install prettyping
+# fuzzy ctrl + r
+brew install fzf
+# tldr > man
+brew install tldr
 
 # Remove outdated versions from the cellar.
 brew cleanup
