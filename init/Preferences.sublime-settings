@@ -1,41 +1,72 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"highlight_modified_tabs": true,
+	"line_padding_bottom": 5,
 	"default_encoding": "UTF-8",
-	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"auto_complete": false,
+	"binary_file_patterns":
+	[
+		"generated/*",
+		"*.tbz2",
+		"*.gzip",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
 	"file_exclude_patterns":
 	[
-		".DS_Store",
-		"Desktop.ini",
+		"*.cache",
 		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
 	],
 	"folder_exclude_patterns":
 	[
+		"node_modules",
+		".svn",
 		".git",
-		"node_modules"
+		".hg",
+		"CVS"
 	],
-	"font_face": "Monaco",
+	"font_face": "Fira Code",
 	"font_size": 13,
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"line_padding_bottom": 5,
-	"match_brackets": true,
-	"match_brackets_angle": true,
-	"remember_open_files": false,
-	"rulers":
+	"ignored_packages":
 	[
-		80
+		"Vintage"
 	],
-	"show_encoding": true,
-	"show_line_endings": true,
+	"rubocop_path": "~/.rbenv/shims/rubocop",
+	"ruby_path": "~/.rbenv/shims/ruby",
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"theme": "Solarized Space Dark.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
