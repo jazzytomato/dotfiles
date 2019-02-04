@@ -1,6 +1,19 @@
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
+# install homebrew
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# brew tap caskroom/cask
+# brew tap caskroom/versions
+
+brew install zsh
+brew install zsh-syntax-highlighting
+brew install zsh-completions
+brew install zsh-autosuggestions
+# fuzzy ctrl + r
+brew install fzf
+chsh -s /bin/zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -100,15 +113,20 @@ brew install vbindiff
 brew install zopfli
 
 brew install prettyping
-# fuzzy ctrl + r
-brew install fzf
 # tldr > man
 brew install tldr
-brew install zsh zsh-completions
+
+
+brew cask install iterm2
+brew cask install quicklook-json
+brew cask install qlmarkdown
+brew cask install qlstephen
+brew cask install istat-menus
+brew cask install spotify
+brew cask install sublime-text3
+brew cask install vlc
+brew cask install google-chrome
+brew cask install expressvpn
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
-# Post install stuff
-chsh -s /bin/zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
