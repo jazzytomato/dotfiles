@@ -212,3 +212,10 @@ function extract() {
 function csvpreview(){
       sed 's/,,/, ,/g;s/,,/, ,/g' "$@" | column -s, -t | less -#2 -N -S
 }
+
+
+function badgessh() {
+  ssh $* 'printf "\e]1337;SetBadgeFormat=%s\a" $(echo -n "$HOSTNAME" | base64)'
+  ssh $*
+  printf "\e]1337;SetBadgeFormat=%s\a" ""
+}

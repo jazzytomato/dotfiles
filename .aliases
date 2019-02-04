@@ -153,3 +153,5 @@ alias path='echo -e ${PATH//:/\\n}'
 alias cat='bat'
 alias ping='prettyping --nolegend'
 alias help='tldr'
+
+alias ssh="badgessh"
