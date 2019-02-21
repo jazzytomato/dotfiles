@@ -99,7 +99,7 @@ brew install ack
 brew install git
 brew install git-lfs
 brew install diff-so-fancy
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install lua
 brew install lynx
 brew install p7zip
@@ -116,6 +116,9 @@ brew install prettyping
 # tldr > man
 brew install tldr
 
+brew install bat
+
+brew install node
 
 brew cask install iterm2
 brew cask install quicklook-json
