@@ -1,0 +1,103 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/tom.haratyk/.emacs.d/personal/" . "preload/")
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/core/appointments/" . "commands/")
+ ("/Users/tom.haratyk/projects/babylon-rw/" . "rails/")
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/services/data_export/" . "processors/")
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/serializers/" . "data_export/")
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/services/" . "data_export/")
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/" . "services/")
+ ("/Users/tom.haratyk/.emacs.d/" . "personal/")
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/lib/" . "tasks/")
+ ("/Users/tom.haratyk/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/tom.haratyk/.emacs.d/personal/"
+ "/Users/tom.haratyk/.emacs.d/modules/"
+ "/Users/tom.haratyk/projects/babylon-rw/rails/app/services/data_export_report/"
+ "/Users/tom.haratyk/projects/babylon-rw/rails/app/services/data_export/processors/"
+ "/Users/tom.haratyk/projects/babylon-rw/rails/app/serializers/data_export/"
+ "/Users/tom.haratyk/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "custom.el"
+ "prelude-ruby.el"
+ "appointment_times.rb"
+ "ussd_lookup.rb"
+ "rssb_appointment_serializer.rb"
+ "rssb_appointments.rb"
+ "init.el"
+ "reporter.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/tom.haratyk/.emacs.d/personal/preload/" (23774 44324 312741 75000) ".gitkeep" "../" "./")
+
+ ("/Users/tom.haratyk/.emacs.d/personal/" (23779 63157 47346 367000) "preload/" "custom.el" ".gitkeep" ".dir-locals.el" "../" "./")
+
+ ("/Users/tom.haratyk/.emacs.d/" (23779 63056 684103 350000) "vendor/" "themes/" "modules/" ".git/" "elpa/" "doc/" "sample/" ".github/" ".projectile" "CONTRIBUTING.md" ".gitignore" "savefile/" "README.md" "init.el" "auto-save-list/" "utils/" "var/" "prelude-cheatsheet.pdf" "transient/" "projectile-bookmarks.eld" "core/" "mkdocs.yml" "prelude-modules.el" "ido.last" "personal/" "../" "./")
+
+ ("/Users/tom.haratyk/" (23779 63229 556948 551000) ".emacs.d.save/" ".account" ".aliases" ".viminfo" ".emacs.d.pre-prelude.tar" ".bash_history" ".macos" ".erc/" ".zcompdump-B-1933-5.3" ".gvimrc" ".gitconfig" ".inputrc" ".cache/" ".circleci/" "Downloads/" ".marker/" ".oh-my-zsh/" ".esets/" ".gem/" ".pry_history" ".bash_profile" ".mono/" ".mysql_history" ".functions" ".hushlogin" "Documents/" ".npm/" ".tldrc/" ".zoomus/" ".Trash/" "qt.rb" ".screenrc" "Applications/" ".vimrc" "Movies/" ".ssh/" ".gitattributes" ".exports" "Users/" ".cisco/" "Users 2/" "saddler_studio/" "package-lock.json" ".gitignore" ".bash_prompt" ".fzf.bash" "Public/" ".fzf.zsh" ".bash_sessions/" ".cups/" ".android/" ".emacs.d/" ".editorconfig" ".gdbinit" "TabNine/" ".lesshst" "Library/" "Desktop/" ".solargraph/" ".iterm2_shell_integration.zsh" ".zsh_history" ".haxornewsconfig" "brew.sh" ".zcompdump-B-1933-5.7" "hasura/" ".bundle/" "Pictures/" "projects/" ".local/" ".hgignore" ".zshrc" ".curlrc" ".bashrc" ".subversion/" ".rbenv/" "bin/" ".CFUserTextEncoding" ".tmux.conf" ".gnupg/" ".DS_Store" ".vim/" ".anyconnect" "Music/" "init/" ".config/" ".wgetrc" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/core/appointments/commands/" (23779 63111 195944 359000) "update.rb" "create.rb" "cancel.rb" "time_out_payment.rb" "no_show.rb" ".#create.rb" "mark_as_paid.rb" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/spec/core/appointments/commands/" (23778 54579 26308 315000) "no_show_spec.rb" "create_spec.rb" "time_out_payment_spec.rb" "update_spec.rb" "mark_as_paid_spec.rb" "cancel_spec.rb" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/" (23778 52068 188869 53000) "rails/" ".circleci/" ".git/" ".github/" "STYLE.md" ".gitignore" "README.md" ".hound.yml" "CODEOWNERS" ".DS_Store" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/" (23778 52248 641454 351000) ".rspec_parallel" "vendor/" "coverage/" "tmp/" ".phraseapp.yml.dist" "docker-compose.yml" "Gemfile.lock" "log/" ".rubocop.yml" "pdfs/" "Gemfile" "db/" "lib/" ".projectile" "VERSION" "package.json" ".gitignore" "public/" ".dockerignore" "Rakefile" "script/" "npm-shrinkwrap.json" "docs/" "spec/" "features/" "node_modules/" "config.ru" "Makefile" "Dockerfile" "images/" "config/" "CHANGELOG.md" "bin/" "dump.rdb" ".ruby-version" "app/" ".DS_Store" "eye/" ".rspec" ".babelrc" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/spec/" (23750 49210 43191 616000) "localization/" "services/" "helpers/" "rails_helper.rb" "test_helpers/" "controllers/" "jobs/" "routing/" "validators/" "test_helper.rb" "fixtures/" "pdfs/" "lib/" "factories/" "support/" "serializers/" "requests/" "presenters/" "models/" "queries/" "circleci/" "integration/" "examples.txt" "mailers/" "core/" "forms/" "interceptors/" "spec_helper.rb" "clients/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/spec/core/" (23747 11809 322089 763000) "insurances/" "prescriptions/" "pharmacies/" "users/" "geolocation/" "referrals/" "insurance_eligibility_requests/" "appointments/" "payments/" "patients/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/spec/core/appointments/" (23641 47898 662253 500000) "services/" "commands/" "forms/" "../" "./")
+
+ ("/Users/tom.haratyk/.emacs.d/modules/" (23774 44324 312258 886000) "prelude-ts.el" "prelude-yaml.el" "prelude-programming.el" "prelude-emacs-lisp.el" "prelude-go.el" "prelude-scss.el" "prelude-key-chord.el" "prelude-common-lisp.el" "prelude-company.el" "prelude-ido.el" "prelude-erlang.el" "prelude-ivy.el" "prelude-scala.el" "prelude-helm.el" "prelude-css.el" "prelude-lsp.el" "prelude-rust.el" "prelude-latex.el" "prelude-xml.el" "prelude-ocaml.el" "prelude-elixir.el" "prelude-helm-everywhere.el" "prelude-evil.el" "prelude-erc.el" "prelude-lisp.el" "prelude-python.el" "prelude-c.el" "prelude-haskell.el" "prelude-js.el" "prelude-coffee.el" "prelude-perl.el" "prelude-clojure.el" "prelude-web.el" "prelude-org.el" "prelude-shell.el" "prelude-scheme.el" "prelude-ruby.el" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/core/" (23696 55036 17185 106000) "insurances/" "prescriptions/" "pharmacies/" "users/" "geolocation/" "referrals/" "insurance_eligibility_requests/" "appointments/" "payments/" "patients/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/core/appointments/" (23641 47897 924913 239000) "services/" "commands/" "forms/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/services/data_export/" (23774 54139 79344 789000) "record_processor_service.rb" "batch_processor_service.rb" "processors/" "scheduler_service.rb" "exporters/" ".DS_Store" "export_processors/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/services/data_export_report/" (23774 53222 578627 750000) "reporter.rb" "clinical_appointments.rb" "rssb_appointments.rb" ".#rssb_appointments.rb" "appointment_times.rb" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/queries/data_export/" (23774 52867 79923 586000) ".#rssb_appointments_query.rb" "appointment_times_query.rb" "rssb_appointments_query.rb" "clinical_appointments_query.rb" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/queries/" (23750 49209 999044 493000) "practices/" "appointments_grouped_by_date_query.rb" "starting_shifts_query.rb" "unfulfilled_prescriptions_query.rb" "data_export/" "admin/" "closest_slots_query.rb" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/services/data_export/processors/" (23774 52562 919083 574000) "ussd_lookup.rb" "presence_checker.rb" "privacy.rb" "base.rb" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/serializers/data_export/" (23774 52356 83102 232000) "rssb_appointment_serializer.rb" "appointment_times_serializer.rb" "clinical_appointment_serializer.rb" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/serializers/insurers/" (23641 47898 64837 6000) "v1/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/serializers/" (23681 15760 856900 93000) "families/" "concerns/" "pgm/" "consumer_networks/" "api/" "insurers/" "geolocation/" "data_export/" "gp_portal/" "clinical_portal/" "user_profiles/" "appointments/" "identity/" "portal/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/lib/tasks/cron/" (23681 15761 11100 891000) "promotion_validations.rake" "availability_time.rake" "insurers.rake" "prescriptions.rake" "data_export/" "promotions.rake" "marketing.rake" "mailing_lists.rake" "postcode_software.rake" "gp_at_hand.rake" "orders.rake" "absence.rake" "payments/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/lib/tasks/cron/data_export/" (23736 25684 379521 379000) "clinical_appointments.rake" "appointment_times.rake" "rssb_appointments.rake" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/lib/tasks/" (23750 49210 24180 52000) "cron/" "biu.rake" "clean_up_height_and_weight.rake" "language.rake" "notifications_service_migration.rake" "expire_api_keys.rake" "brand.rake" "backup-mysql.rake" "create_anonymous_db_dump.rake" "family_account_migration.rake" "add_unencrypted_field.rake" "patient_not_in_cn_dump.rake" "commercial_promotion_codes_cn_migration.rake" "nlp_annotations.rake" "patient_nid_import.rake" "set_up_nhs_online_consumer_networks_and_relatonships.rake" "diagnostic_tests.rake" "populate_uuid_lookup.rake" "setup_telus_networks_and_relationships.rake" "replace_clinical_codes.rake" "diagnostics.rake" "populate_prescription_drug_state.rake" "visual_pdf_tests.rake" "clean_up_birth_date.rake" "gp_at_hand.rake" "availability_slots.rake" "create_one_pharmacy_supplier_per_pharmacist.rake" "pgm.rake" "populate_consumer_network_pharmacy_supplies_relationship.rake" ".keep" "post_release_migrations.rake" "patient_report.rake" "import_diagnostic_test_types.rake" "setup_nhs_consumer_networks.rake" "braintree.rake" "opentok.rake" "fix_gp_details.rake" "prescriptions_migration.rake" "patient_activation.rake" "cucumber.rake" "create_all_the_regions.rake" "populate_prescriptions_app_settings.rake" "seed/" "migrate_comments_data_to_polymorphic.rake" "decrypt.rake" "uuid.rake" "location_service.rake" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/lib/" (23750 49209 967291 14000) "gp_at_hand_consolidator.rb" "boolean_handler.rb" "csvs/" "assets/" "password_reset_limiter.rb" "lockable_task.rb" "rack/" "insurers/" "verify_tests.rb" "csv/" "mailing_lists/" "mailing_lists.rb" "verify_tests/" "paginatable_array.rb" "tagged_logging.rb" "otsdk.rb" "shop/" "read/" "locales/" "shared_memory_cache/" "tasks/" "code_generator.rb" "babylon/" "../" "./")
+
+ ("/Users/" (23635 10122 814035 861000) "tom.haratyk/" "Shared/" "admin/" ".localized" "../" "./")
+
+ ("/Users/tom.haratyk/projects/" (23743 6809 432755 792000) "waterloo/" "stellar.yaml" "fhir_models/" "babylon-ussd/" "test2.csv" "location-service/" "babylon-rw/" "test.csv" "clinical-portal/" "chef-repo/" "dotfiles/" "babylon/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/" (23641 47898 130027 846000) "inputs/" "services/" "helpers/" "assets/" "views/" "controllers/" "jobs/" "subscribers/" "validators/" "pdfs/" "exhibits/" "serializers/" "presenters/" "exceptions/" "models/" "queries/" "datatables/" "mailers/" "core/" "forms/" "interceptors/" "clients/" "responders/" "../" "./")
+
+ ("/Users/tom.haratyk/projects/babylon-rw/rails/app/services/" (23750 49209 967127 107000) "concerns/" "communications/" "phaxio_gateway.rb" "error_codes/" "revenue_notifier_service.rb" "sign_out.rb" "login/" "pgm/" "prescriptions/" "zendesk_service.rb" "consultant_priority.rb" "rwanda_prescription_pdf_service.rb" "add_nhs_online_practices_service.rb" "babylon_id.rb" "events/" "user_details.rb" "anonymizer_service.rb" "bupa/" "legacy_gp_detail_params_service.rb" "decrypt_csv_uploads_service.rb" "sms_service.rb" "encryption.rb" "create_new_family_account_service.rb" "nida/" "referral_acceptance_workflow/" "twilio_sms_service.rb" "prescriptions_expire_service.rb" "identity_check/" "postcode_checker_service.rb" "create_temp_public_healthcare_report.rb" "code_generator_service.rb" "deregister_device_service.rb" "availability/" "add_patient_to_family_service.rb" "data_export_report/" "consultations/" "data_export/" "facebook_registration/" "patient/" "available_consultant_finder.rb" "voice_call/" "exception_notifier.rb" "drugs_csv_service.rb" "clinical_portal_permissions.rb" "appointment_price_service.rb" "transfer_patient_account_owner_service.rb" "availability_service.rb" "video_archive_publicizer_service.rb" "waiting_time_log_service.rb" "referral_service.rb" "users_filter_service.rb" "pharmacy_supplier/" "pharmacy_finder.rb" "promotion_validation_importer.rb" "open_tok_integration/" "register_device_service.rb" "nida_service.rb" "assign_default_gp_details.rb" "samsung/" "promotion_validation_logger.rb" "postcode_required_service.rb" "patient_ccg_update_service.rb" "file_encryption_service.rb" "patient_history/" "gp_at_hand_city_checker.rb" "audio_archive_publicizer_service.rb" "facebook_sign_in/" "base_search.rb" "postcode_software_credits_check.rb" "remove_patient_from_family_service.rb" "public_healthcare/" "identity_applicant/" "brands/" "daily_revenue_service.rb" "demographics/" "nonce_generation_service.rb" "braintree_connector/" "time_formatter.rb" "transform_triage_data.rb" "ask_a_question.rb" "consultant_rating_summarizer.rb" "privacy/" "promotion_code_file_storer.rb" "drug_import_service.rb" "patient_invite_service.rb" "prescription_alert/" "biu_export/" "csv_report/" "address_service.rb" "payments/" "video/" "appointment/" "prescriptions_expiration_warning_service.rb" "consumer_network_allocator/" "absence_checker_service.rb" "promotion_upload/" "consumer_network_allocator.rb" "encryption/" "activity_service.rb" "encrypted_file_publicizer_service.rb" "prescription_pdf_service.rb" "ask2/" "jwt/" "verify_signature_service.rb" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
